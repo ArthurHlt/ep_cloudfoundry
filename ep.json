@@ -1,12 +1,9 @@
 {
     "parts": [
         {
-            "name": "PLUGINNAME",
+            "name": "cloudfoundry",
             "hooks": {
-                "HOOKNAME" : "ep_FOLDERNAME/index:FUNCTIONNAME1"
-            },
-            "client_hooks": {
-                "CLIENT_HOOKNAME" : "ep_FOLDERNAME/static/js/index:FUNCTIONNAME1"
+                "loadSettings" : "ep_cloudfoundry/ep_cloudfoundry"
             }
         }
     ]

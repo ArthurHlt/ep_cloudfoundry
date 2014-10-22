@@ -1,9 +1,12 @@
 {
-	"name": "ep_PLUGINNAME",
-	"version": "0.0.1",
-	"description": "DESCRIPTION",
-	"author": "USERNAME (REAL NAME) <MAIL@EXAMPLE.COM>",
+	"name": "ep_cloudfoundry",
+	"version": "1.0.0",
+	"description": "Etherpad lite plugin for cloudfoundry support",
+	"author": "Arthur Halet <arthurh.halet@gmail.com>",
 	"contributors": [],
-	"dependencies": {"MODULE": "0.3.20"},
+	"dependencies": {
+        "cfenv": "1.0.0",
+        "parse-database-url": "*"
+    },
 	"engines": { "node": ">= 0.6.0"}
 }
